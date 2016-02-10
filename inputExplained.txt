@@ -1,0 +1,21 @@
+2 			< - # of DFAs
+
+DFA 1
+8 <- # of States 2 <- Size of Input Alphabet			
+6 <- # of Accept States 1 2 3 4 5 6 <- Accept States
+(State 0) (a)1 (b)4 Ex: When in state 0 and you read in an a, go to state 1
+(State 1) (a)2 (b)3
+(State 2) (a)7 (b)7
+(State 3) (a)7 (b)3
+(State 4) (a)5 (b)6
+(State 5) (a)7 (b)7
+(State 6) (a)7 (b)6
+(State 7) (a)7 (b)7
+6 2
+1 0
+0 1
+2 3
+4 5
+0 1
+2 3
+4 5
